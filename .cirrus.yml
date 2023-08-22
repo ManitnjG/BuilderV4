@@ -2,7 +2,7 @@ env:
     MANIFEST: https://git.libremobileos.com/LMODroid/manifest.git -b thirteen --git-lfs
     DEVICE: X01BD
     OEM: asus
-    LOCAL_MANIFEST: https://github.com/ManitnjG/local_manifest --depth 1
+    LOCAL_MANIFEST: https://github.com/ManitnjG/local_manifest 
     TARGET: bacon
     LUNCH_COMBO: lmodroid_$DEVICE-userdebug
     OUTPUT: L*.zip
