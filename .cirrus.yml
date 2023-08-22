@@ -1,16 +1,15 @@
 env:
-    MANIFEST: https://github.com/DerpFest-AOSP/manifest.git -b 13 --depth 1
-    DEVICE: RMP6768
-    OEM: realme
-    LOCAL_MANIFEST: https://github.com/RT1648/local_manifests.git --depth 1
-    TARGET: derp
-    EXTRA_CMD: export SKIP_ABI_CHECKS=true
-    LUNCH_COMBO: derp_$DEVICE-userdebug
-    OUTPUT: D*.zip
-    CLO: ci:ci
-    CLO_1: ENCRYPTED[c55479a0b7ce5416a4d265ad548591ad7523c47907cf36e548017826a86ab1d89e4cc095a95855dec3b8b53d899a7697]
-    URI: https://sourceforge.net/projects/fleur/files/ccache/Derpfest/ccache.tar.gz/download
-    ROM_U: 1
+    MANIFEST: https://git.libremobileos.com/LMODroid/manifest.git -b thirteen --git-lfs
+    DEVICE: X01BD
+    OEM: asus
+    LOCAL_MANIFEST: https://github.com/ManitnjG/local_manifest --depth 1
+    TARGET: bacon
+    LUNCH_COMBO: lmodroid_$DEVICE-userdebug
+    OUTPUT: L*.zip
+    CLO: 1:X01BD
+    CLO_1: ENCRYPTED[7c74c3057d5e4f68fde1f0aecf0b9926cfeee7e4dacc20c15e471ec668df8c494e577fb09dd7b77c1e1442391cac554b]
+    URI: #https://sourceforge.net/projects/fleur/files/ccache/Derpfest/ccache.tar.gz/download
+    ROM_U: 0
 
 task:
   name: "build"
