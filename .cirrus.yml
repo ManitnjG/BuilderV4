@@ -1,11 +1,11 @@
 env:
-    MANIFEST: https://git.libremobileos.com/LMODroid/manifest.git -b thirteen --git-lfs
+    MANIFEST: https://github.com/Havoc-OS/android_manifest.git -b thirteen --git-lfs
     DEVICE: X01BD
     OEM: asus
-    LOCAL_MANIFEST: https://github.com/ManitnjG/local_manifest 
+    LOCAL_MANIFEST: https://github.com/ManitnjG/local_manifest-1
     TARGET: bacon
-    LUNCH_COMBO: lmodroid_$DEVICE-userdebug
-    OUTPUT: L*.zip
+    LUNCH_COMBO: lineage_$DEVICE-userdebug
+    OUTPUT: H*.zip
     CLO: 1:X01BD
     CLO_1: ENCRYPTED[7c74c3057d5e4f68fde1f0aecf0b9926cfeee7e4dacc20c15e471ec668df8c494e577fb09dd7b77c1e1442391cac554b]
     URI: #https://sourceforge.net/projects/fleur/files/ccache/Derpfest/ccache.tar.gz/download
